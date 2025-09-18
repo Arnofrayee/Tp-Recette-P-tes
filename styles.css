@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3e5d7;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Desktop/text-preset-1";
+  background-color: white;
+  width: max-content;
+  padding: 40px;
+}
+h1 {
+  font-family: "Young Serif";
+  margin-bottom: 25ox;
+}
+input {
+  display: block;
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 25px;
+  border: 0px;
+  background-color: #fff7fb;
+  border-radius: 12px;
+  padding: 24px 12px 24px 12px;
+}
+input::placeholder {
+  color: #e8ceda;
+}
+a {
+  font-family: "Young Serif";
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px;
+  text-decoration: none;
+  background-color: #7a284e;
+  color: #fff7fb;
+  font-size: 28px;
+  border-radius: 12px;
+}
+hr {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
